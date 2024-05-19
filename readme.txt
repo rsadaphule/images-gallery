@@ -27,7 +27,7 @@ Install Python Packages in virtal env
 pipenv install Flask
 pipenv install requests
 pipenv install python-dotenv
-
+pipenv install flask-cors
 
 
 
@@ -35,6 +35,7 @@ Activate python virtual env
 * Go to VS Command line 
 * Navigate to api folder
 * Run pipenv shell
+
 
 
 
