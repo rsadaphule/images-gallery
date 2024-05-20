@@ -29,6 +29,12 @@ pipenv install requests
 pipenv install python-dotenv
 pipenv install flask-cors
 
+pipenv install --dev black
+pipenv install --dev pylint
+pipenv install --dev pycodestyle
+
+
+
 
 
 Activate python virtual env
