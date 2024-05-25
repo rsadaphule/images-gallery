@@ -44,6 +44,19 @@ Activate python virtual env
 
 
 
+Docker commands
+* See list of running processess in the docker 
+     docker ps
+* Create docker image
+  docker build . -t images-gallery-api 
+* List docker images
+  docker images  
+* Run docker image
+    docker run -p 5050:5050 images-gallery-api
+* Connect docker image via bash
+    docker exec -it <name> bash
+
+
 
 Useful links
 pypi.org for  code examples of python Packages
