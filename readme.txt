@@ -47,14 +47,33 @@ Activate python virtual env
 Docker commands
 * See list of running processess in the docker 
      docker ps
+
+
+API
 * Create docker image
   docker build . -t images-gallery-api 
 * List docker images
   docker images  
-* Run docker image
-    docker run -p 5050:5050 images-gallery-api
+* Run docker image in the background
+    docker run -p 5050:5050 -d images-gallery-api  
 * Connect docker image via bash
     docker exec -it <name> bash
+
+Front End 
+ * Build docker image 
+  docker build . -t frontend
+ * Run docker image in the background
+    docker run -p 5050:5050 -d images-gallery-api  
+  * Connect docker image via sh
+    docker exec -it <name> sh
+ 
+ 
+ Common Docker commands
+  * stop docker process running in the background
+    docker stop <psname>
+  * start docker process whch was stopped
+     dpcker start <psname>
+    
 
 
 
