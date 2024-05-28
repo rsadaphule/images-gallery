@@ -72,8 +72,10 @@ Front End
   * stop docker process running in the background
     docker stop <psname>
   * start docker process whch was stopped
-     dpcker start <psname>
-    
+     docker start <psname>
+  * to start front end and backend container at the same time
+    docker-compose up 
+  
 
 
 

@@ -4,7 +4,7 @@ import Search from './components/Search';
 import { useState } from 'react';
 import ImageCard from './components/ImageCard';
 import { Container, Row, Col } from 'react-bootstrap';
-import elcome from './components/Welcome';
+import Welcome from './components/Welcome';
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://127.0.0.1:5050';
 
