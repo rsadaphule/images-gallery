@@ -77,6 +77,9 @@ Front End
     docker-compose up 
   
 
+Connect to mongo shell via docker
+* docker exec -it images-gallery-mongo-1 mongosh --username admin --password example
+
 
 
 Useful links
